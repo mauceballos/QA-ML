@@ -1,0 +1,16 @@
+{
+  "name": "qa-mercadolibre",
+  "version": "1.0.0",
+  "description": "Ejercicio técnico de automatización QA con Cypress + Cucumber",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress open"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^13.15.0",
+    "cypress-mochawesome-reporter": "^3.1.5",
+    "esbuild": "^0.18.0"
+  }
+}
